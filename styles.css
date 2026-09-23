@@ -259,6 +259,13 @@ footer {
   background: #333;
 }
 
+.project-link-disabled,
+.project-link-disabled:hover {
+  background: #b8b8b8;
+  color: #f7f7f7;
+  cursor: not-allowed;
+}
+
 .tech-used {
   margin-top: 0.5rem;
   font-size: 0.85rem;
